@@ -38,4 +38,4 @@ let menuItems = [
         , date: "June 2018"
         , description: "The Ottawa Senators defeat the Anahiem Ducks with 4 straight wins."
     }
-];
+]

@@ -1,0 +1,40 @@
+{
+    "env": {
+        "browser": true
+        , "es6": true
+        , "node": true
+    }
+    , "extends": "eslint:recommended"
+    , "rules": {
+        "indent": [
+            "error"
+            , "tab"
+        ]
+        , "linebreak-style": [
+            "error"
+            , "unix"
+        ]
+        , "quotes": [
+            "error"
+            , "single"
+        ]
+        , "semi": [
+            "error"
+            , "always"
+        ]
+        , "no-unused-vars": 0
+     }
+    , "globals": {
+        "React": true,
+        "ReactDOM": true,
+        "menuItems": true,
+        "footerCredits": true,
+        "Footer": true,
+        "NavMenu": true,
+        "Header": true,
+        "MainPage": true,
+        "ItemPage":true,
+        "AddNewPage": true
+        
+    }
+}
